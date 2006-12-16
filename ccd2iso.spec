@@ -5,8 +5,8 @@ Version:	0.3
 Release:	1
 License:	GPL v2
 Group:		Applications/System
-Source0:	http://dl.sourceforge.net/ccd2iso/%{name}.tar.gz
-# Source0-md5:	2a478f2309608593035f1a095a616bd5
+Source0:	http://dl.sourceforge.net/ccd2iso/%{name}-%{version}.tar.gz
+# Source0-md5:	a7df1c46cb710f2fc8ebd88c2e64ce65
 URL:		http://sourceforge.net/projects/ccd2iso/
 BuildRequires:	automake
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
