@@ -18,7 +18,7 @@ CloneCD image to ISO image file converter.
 Konwerter plików obrazów CloneCD do ISO.
 
 %prep
-%setup -q -n %{name}
+%setup -q
 
 %build
 cp -f /usr/share/automake/config.* .
