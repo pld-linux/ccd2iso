@@ -1,5 +1,5 @@
 Summary:	CloneCD image to ISO image file converter
-Summary(pl.UTF-8):   Konwerter plików obrazów CloneCD do ISO
+Summary(pl.UTF-8):	Konwerter plików obrazów CloneCD do ISO
 Name:		ccd2iso
 Version:	0.3
 Release:	1
