@@ -1,0 +1,19 @@
+--- ccd2iso-0.3/src/ccd2iso.c.orig	2003-12-05 16:16:37.000000000 +0100
++++ ccd2iso-0.3/src/ccd2iso.c	2026-03-09 00:00:00.000000000 +0100
+@@ -28,6 +28,7 @@
+
+ #include <stdio.h>
+ #include <stdlib.h>
++#include <string.h>
+
+ #include "clonecd.h"
+
+@@ -93,7 +94,7 @@
+ 			if (bytes_read < sizeof(ccd_sector))
+ 			{
+ 				printf("Error at sector %d.\n", sect_num);
+-				printf("The sector does not contain complete data. Sector size must be %d, while actual data read is %d\n",
++				printf("The sector does not contain complete data. Sector size must be %zu, while actual data read is %d\n",
+ 					sizeof(ccd_sector), bytes_read);
+ 				return 1;
+ 			}
